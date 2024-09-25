@@ -1,4 +1,10 @@
+import { config } from "@fortawesome/fontawesome-svg-core";
 import { Inter } from "next/font/google";
+import React from "react";
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+
+config.autoAddCss = false;
 
 import Header from "@/layouts/header";
 
