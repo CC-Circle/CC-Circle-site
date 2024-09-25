@@ -16,7 +16,7 @@ export default function Page({ slug }: { slug: string }) {
       {game.topic && (
         <div className="flex">
           {game.topic.map((topic, index) => (
-            <div key={index} className="mx-1 border">
+            <div key={index} className="mx-1 border p-0.5">
               {topic}
             </div>
           ))}

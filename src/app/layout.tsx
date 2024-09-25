@@ -6,6 +6,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 config.autoAddCss = false;
 
+import Footer from "@/layouts/footer";
 import Header from "@/layouts/header";
 
 import type { Metadata } from "next";
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
