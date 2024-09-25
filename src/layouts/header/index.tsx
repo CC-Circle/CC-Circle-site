@@ -2,11 +2,14 @@
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div className="flex items-center justify-between">
-      <Logo num={150} />
+      <Link href="/">
+        <Logo num={150} />
+      </Link>
       <SNSIcons />
     </div>
   );
@@ -17,10 +20,10 @@ export default function Header() {
 
   function SNSIcons() {
     return (
-      <span>
+      <div>
         <FontAwesomeIcon className="size-5 px-2" icon={faGithub} />
         <FontAwesomeIcon className="size-5" icon={faXTwitter} />
-      </span>
+      </div>
     );
   }
 }
