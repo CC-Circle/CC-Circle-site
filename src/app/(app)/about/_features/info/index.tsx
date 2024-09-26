@@ -4,11 +4,11 @@ export default function CircleInfo() {
       <h1 className="text-4xl font-bold">Circle Information</h1>
       <ul>
         <li className="pb-3">
-          <span className="pr-5">　　　　設立</span>
+          <span className="pr-5">設立</span>
           <span>2023年10月</span>
         </li>
         <li className="pb-3">
-          <span className="pr-5">　　　所在地</span>
+          <span className="pr-5">所在地</span>
           <span>第3クラブハウス207号室</span>
         </li>
         <li className="pb-3">
