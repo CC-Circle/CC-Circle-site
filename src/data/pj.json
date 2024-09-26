@@ -1,33 +1,42 @@
 [
   {
     "slug": "1",
-    "topic": ["TGS2024", "mkctrl2023"],
-    "title": "ファンタジーアドベンチャー",
-    "description": "このゲームは、プレイヤーが魔法の世界を冒険し、モンスターと戦い、宝物を見つけるRPGです。",
-    "image": "/logo.svg"
+    "topic": ["TGS2024"],
+    "title": "ヨガアース",
+    "description": "ヨガをテーマにしたアクションゲームで、プレイヤーはヨガのポーズを使って敵を倒します。",
+    "image": "/pj/crop/1.png"
   },
   {
     "slug": "2",
-    "title": "サイバーパンク2077",
-    "description": "未来の都市を舞台にしたオープンワールドRPGで、プレイヤーはサイボーグとして様々なミッションをこなします。",
-    "image": "/logo.svg"
+    "topic": ["入学式2024"],
+    "title": "逆行タイム図",
+    "description": "時間を逆行することができるアクションゲーム。",
+    "image": "/pj/crop/2.png"
   },
   {
     "slug": "3",
-    "title": "マリオカート8",
-    "description": "人気のレースゲームで、マリオやその仲間たちと一緒に様々なコースを駆け抜けます。",
-    "image": "/logo.svg"
+    "topic": ["TGS2024"],
+    "title": "リーフカッター",
+    "description": "迫り来る敵から畑を守り抜け。",
+    "image": "/pj/crop/3.png"
   },
   {
     "slug": "4",
-    "title": "サイバーパンク2077",
-    "description": "未来の都市を舞台にしたオープンワールドRPGで、プレイヤーはサイボーグとして様々なミッションをこなします。",
-    "image": "/logo.svg"
+    "topic": ["入学式2024"],
+    "title": "eye-drop",
+    "description": "目薬を使ってサラリーマンをブラック企業から救うゲーム。",
+    "image": "/pj/crop/4.png"
   },
   {
     "slug": "5",
-    "title": "マリオカート8",
-    "description": "人気のレースゲームで、マリオやその仲間たちと一緒に様々なコースを駆け抜けます。",
-    "image": "/logo.svg"
+    "topic": [
+      "TGS2023",
+      ["BitSumit2023"],
+      ["make.ctrl.Japan2023"],
+      ["釜山BIC2024"]
+    ],
+    "title": "キューブでポン！",
+    "description": "ルービックキューブを使った新感覚のアクションゲーム。",
+    "image": "/pj/crop/5.png"
   }
 ]

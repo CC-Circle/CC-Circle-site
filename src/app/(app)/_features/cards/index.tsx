@@ -4,7 +4,7 @@ import Link from "next/link";
 import games from "@/data/pj.json";
 
 export default function Cards() {
-  const defaultImage = "/logo.svg";
+  const defaultImage = "/pj/crop/logo.png";
 
   return (
     <div className="grid grid-cols-2 gap-5 md:grid-cols-3">

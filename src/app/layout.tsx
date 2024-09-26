@@ -8,6 +8,7 @@ config.autoAddCss = false;
 
 import Footer from "@/layouts/footer";
 import Header from "@/layouts/header";
+import Nav from "@/layouts/nav";
 
 import type { Metadata } from "next";
 import "./tailwind.css";
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <Nav />
         {children}
         <Footer />
       </body>
