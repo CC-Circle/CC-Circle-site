@@ -21,10 +21,10 @@ export default function Header() {
     return (
       <div>
         <Link href="https://github.com/CC-Circle">
-          <FontAwesomeIcon className="size-5 px-2" icon={faGithub} />
+          <FontAwesomeIcon className="size-8 px-2" icon={faGithub} />
         </Link>
         <Link href="https://x.com/CCC_AIT">
-          <FontAwesomeIcon className="size-5" icon={faXTwitter} />
+          <FontAwesomeIcon className="size-8" icon={faXTwitter} />
         </Link>
       </div>
     );

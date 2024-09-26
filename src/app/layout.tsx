@@ -1,5 +1,6 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { Inter } from "next/font/google";
+import Op from "@/app/(app)/_features/op";
 import React from "react";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -26,12 +27,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <Nav />
-        {children}
-        <Footer />
+    <html lang="en" className="overflow-x-hidden">
+      <body className={`${inter.className} relative overflow-x-hidden`}>
+        <Op />
+        <div className="p-20">
+          <Header />
+          <Nav />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
