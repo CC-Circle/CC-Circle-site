@@ -10,7 +10,7 @@ export default function Cards() {
     <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
       {games.map((game, index) => (
         <div className="flex items-center justify-center">
-          <Link href={`/${game.slug}`} key={index}>
+          <Link href={`${game.slug}`} key={index}>
             <Image
               src={game.crop || defaultImage}
               alt={game.title}

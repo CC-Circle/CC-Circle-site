@@ -1,8 +1,8 @@
 export default function CircleInfo() {
   return (
-    <div className="flex flex-col items-center gap-4 p-4 py-10 md:px-24">
-      <h1 className="text-4xl font-bold">Circle Information</h1>
-      <ul>
+    <div className="flex flex-col items-center gap-4 p-4 py-5 md:px-24 md:py-10">
+      <h1 className="text-2xl font-bold md:text-4xl">Circle Information</h1>
+      <ul className="text-xs">
         <li className="pb-3">
           <span className="pr-5">　　　　設立</span>
           <span>2023年10月</span>

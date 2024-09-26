@@ -7,7 +7,7 @@ export default function About() {
   return (
     <MotionWrapper>
       <Logo />
-      <div className="flex justify-center py-24">
+      <div className="flex justify-center py-12 md:py-24">
         愛知工業大学八草キャンパスを拠点として活動している公認サークルです。
         コンテンツや作品をつくることを目的をとして、それぞれが持ち寄ったアイデアや技術、知識などを活用し新しいものを生み出していきます。
       </div>

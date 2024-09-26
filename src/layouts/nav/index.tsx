@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <>
-      <div className="flex py-5 text-xl">
+      <div className="flex py-5 text-xl font-semibold">
         <Link className="pl-4" href="/">
           Home
         </Link>
