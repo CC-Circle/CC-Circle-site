@@ -12,7 +12,7 @@ export default function Cards() {
         <div className="flex items-center justify-center">
           <Link href={`/${game.slug}`} key={index}>
             <Image
-              src={game.image || defaultImage}
+              src={game.crop || defaultImage}
               alt={game.title}
               width={600}
               height={600}
