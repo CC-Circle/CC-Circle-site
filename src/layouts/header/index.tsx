@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="items-centerr flex justify-between">
       <Link href="/">
         <CCC />
       </Link>
