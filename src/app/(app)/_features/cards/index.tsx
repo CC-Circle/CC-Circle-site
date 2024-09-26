@@ -7,7 +7,7 @@ export default function Cards() {
   const defaultImage = "/pj/crop/logo.png";
 
   return (
-    <div className="grid grid-cols-2 gap-36 md:grid-cols-3">
+    <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
       {games.map((game, index) => (
         <div className="flex items-center justify-center">
           <Link href={`/${game.slug}`} key={index}>

@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en" className="overflow-x-hidden">
       <body className={`${inter.className} relative overflow-x-hidden`}>
         <Op />
-        <div className="p-20">
+        <div className="p-48">
           <Header />
           <Nav />
           {children}
