@@ -1,8 +1,10 @@
 import MainTenance from "@/components/maintenance";
+import MotionWrapper from "@/components/MotionWrapper";
+
 export default function Page() {
   return (
-    <div>
+    <MotionWrapper>
       <MainTenance />
-    </div>
+    </MotionWrapper>
   );
 }
