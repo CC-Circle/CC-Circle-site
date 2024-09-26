@@ -1,7 +1,8 @@
+import MotionWrapper from "@/components/MotionWrapper";
+
+import Info from "@/app/(app)/about/_features/info";
 import Logo from "@/app/(app)/about/_features/logo";
 import Timeline from "@/app/(app)/about/_features/timeline";
-import Info from "@/app/(app)/about/_features/info";
-import MotionWrapper from "@/components/MotionWrapper";
 
 export default function About() {
   return (

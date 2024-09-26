@@ -1,8 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Logo() {
   return (

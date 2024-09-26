@@ -1,5 +1,6 @@
-import games from "@/data/pj.json";
 import Image from "next/image";
+
+import games from "@/data/pj.json";
 
 export default function Visual({ slug }: { slug: string }) {
   const game = games.find((game) => game.slug === slug);
