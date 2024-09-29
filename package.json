@@ -6,7 +6,7 @@
     "predev": "rm -fr .next",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve out",
     "lint": "next lint",
     "format": "prettier --write .",
     "prepare": "husky install"
