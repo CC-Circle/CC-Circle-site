@@ -31,7 +31,7 @@ export default function Op() {
 
   return (
     <div
-      className="absolute flex h-full w-full items-center bg-white p-96"
+      className="absolute flex h-full w-full items-center bg-white p-0 md:p-96"
       style={{
         opacity: isVisible ? 1 : 0,
         zIndex: isVisible ? 1 : -1,
