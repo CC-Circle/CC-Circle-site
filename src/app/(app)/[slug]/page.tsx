@@ -1,14 +1,19 @@
+/* eslint-disable @typescript-eslint/require-await */
 import React from "react";
 
 import MotionWrapper from "@/components/MotionWrapper";
+
+import games from "@/data/pj.json";
 
 import Description from "./_features/description";
 import Title from "./_features/title";
 import Topic from "./_features/topic";
 import Visual from "./_features/visual";
 
-export function generateStaticParams() {
-  return [{ slug: "home" }, { slug: "about" }, { slug: "others" }];
+export async function generateStaticParams() {
+  return games.map((game) => ({
+    slug: game.slug,
+  }));
 }
 
 export default function Page({ params }: { params: { slug: string } }) {
