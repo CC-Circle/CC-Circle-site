@@ -8,7 +8,7 @@ import Footer from "@/layouts/footer";
 import Header from "@/layouts/header";
 import Nav from "@/layouts/nav";
 
-import Op from "./(app)/_features/op";
+// import Op from "./(app)/_features/op";
 
 import type { Metadata } from "next";
 import "./tailwind.css";
@@ -37,7 +37,7 @@ export default function RootLayout({
       className={clsx(notoSansJP.variable, "overflow-x-hidden font-sans")}
     >
       <body className={`${notoSansJP.className} overflow-x-hidden`}>
-        <Op />
+        // <Op />
         <div className="p-20 md:p-48">
           <Header />
           <Nav />
